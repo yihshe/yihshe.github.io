@@ -26,7 +26,7 @@ News
 
 PhD Research Focus
 ------
-My PhD research focuses on developing data-driven systems for **scalable forest monitoring**, integrating **remote sensing** and **close-range** observations, with applications in **forest ecology** and methodologies grounded in **computer vision**.
+My PhD research focuses on developing data-driven systems for **scalable forest monitoring**, integrating **remote sensing** and **close-range** observations.
 
 On the **remote sensing** end, I leverage **Earth Observation data** by treating the radiative transfer model as a **graphics renderer** and its inversion as **inverse graphics**. Through an **end-to-end machine learning pipeline**, I retrieve **interpretable biophysical variables** from satellite imagery to characterize forests at a large scale.  
 
