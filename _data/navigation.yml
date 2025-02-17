@@ -20,8 +20,9 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  # - title: "CV"
-  #   url: /cv/
+  - title: "CV"
+    # url: /cv/
+    url: /files/Yihang_CV_updated20250209.pdf
     
   # - title: "Guide"
   #   url: /markdown/
