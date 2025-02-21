@@ -22,7 +22,9 @@ If you’re interested in my work or would like to connect, please feel free to 
 
 News
 ------
-[01/2025] I have completed the EnterpriseTECH training at Cambridge Judge Buisness School!
+[02/2025] Our SPREAD (Synthetic Photorealistic Arboreal Dateset) paper has been accepted by Ecological Informatics. 
+
+[01/2025] I have completed the EnterpriseTECH programme at Cambridge Judge Buisness School!
 
 PhD Research Focus
 ------
