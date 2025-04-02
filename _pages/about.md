@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Transforming Forest Monitoring with Computer Vision for Climate Impact"
+title: "Transforming Environmental Monitoring with Computer Vision for Climate Impact"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,7 +12,7 @@ redirect_from:
 
 About Me 
 ------
-I am a second-year PhD student at the **Computer Laboratory, University of Cambridge**, supervised by **Srinivasan Keshav, Andrew Blake, and David Coomes**. I am also affiliated with the UKRI Centre for Doctoral Training in **AI for Environmental Risks**. My research lies at the intersection of **computer vision and climate change**, developing data-driven systems for **scalable forest monitoring**. 
+I am a second-year PhD student at the **Computer Laboratory, University of Cambridge**, supervised by **Srinivasan Keshav, Andrew Blake, and David Coomes**. I am also affiliated with the UKRI Centre for Doctoral Training in **AI for Environmental Risks**. My research lies at the intersection of **computer vision and climate change**, developing a data driven system for **scalable forest monitoring**.
 
 Prior to Cambridge, I completed my **Master’s at ETH Zurich** in Switzerland with an **Excellence Scholarship** and my **Bachelor's at Nanjing University** in China, both in **Geomatics**—a field that, despite its somehow confusing name, has laid down the foundation for my work today, combining **information science with geospatial data**.  
 
