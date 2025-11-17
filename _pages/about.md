@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "What would be the next frontier in AI for Earth Observation?"
+title: "How to scale up forest vision with synthetic data? What would be the next frontier in AI for Earth Observation?"
 author_profile: true
 redirect_from: 
   - /about/
