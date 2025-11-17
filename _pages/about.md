@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Transforming Environmental Monitoring with Computer Vision for Climate Impact"
+title: "What would be the next frontier in AI for Earth Observation?"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,19 +12,20 @@ redirect_from:
 
 About Me 
 ------
-I am a second-year PhD student at the **Computer Laboratory, University of Cambridge**, supervised by **Srinivasan Keshav, Andrew Blake, and David Coomes**. I am also affiliated with the UKRI Centre for Doctoral Training in **AI for Environmental Risks**. My research lies at the intersection of **computer vision and climate change**, developing a data driven system for **scalable forest monitoring**.
+I am a second-year PhD student at the **Computer Laboratory, University of Cambridge**, supervised by **Srinivasan Keshav, Andrew Blake, and David Coomes**. I am also affiliated with the UKRI Centre for Doctoral Training in **AI for Environmental Risks**. My research lies at the intersection of **computer vision, physics-informed machine learning, and climate change**, developing a data driven system for **scalable environmental monitoring**.
 
-Prior to Cambridge, I completed my **Master’s at ETH Zurich** in Switzerland with an **Excellence Scholarship** and my **Bachelor's at Nanjing University** in China, both in **Geomatics**—a field that, despite its somehow confusing name, has laid down the foundation for my work today, combining **information science with geospatial data**.  
+Prior to Cambridge, I completed my **Master’s at ETH Zurich** in Switzerland with an **Excellence Scholarship** and my **Bachelor's at Nanjing University** in China, both in **Geomatics**—an interdisciplinary field that has laid down the foundation for my work today, combining **computer science with geospatial data**.  
 
-Feel free to explore this website to learn more about my **past projects**, **ongoing research**, and **future directions**. I also use this space to share **blog posts** reflecting on my research thoughts. Beyond academics, I enjoy **choral singing** and **Chinese calligraphy** in my leisure time.  
+Feel free to explore this website to learn more about my research portfolio and ongoing projects. I also share my recent research findings on LinkedIn. Beyond academics, I enjoy **choral singing** and **Chinese calligraphy** in my leisure time.  
 
 If you’re interested in my work or would like to connect, please feel free to reach out!
 
-News
+<!-- News
 ------
+
 [02/2025] Our SPREAD (Synthetic Photorealistic Arboreal Dateset) paper has been accepted by Ecological Informatics. 
 
-[01/2025] I have completed the EnterpriseTECH programme at Cambridge Judge Buisness School!
+[01/2025] I have completed the EnterpriseTECH programme at Cambridge Judge Buisness School! -->
 
 PhD Research Focus
 ------
