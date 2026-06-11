@@ -1,84 +1,105 @@
 ---
 permalink: /
-title: "What would be the next frontier in AI for Earth Observation?"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<!-- Add an anchor at the top -->
-<div id="top"></div>
+I am a final-year PhD student at the **Department of Computer Science and Technology, University of Cambridge**, supervised by **Prof. Srinivasan Keshav FRS** and **Prof. Andrew Blake FRS**. I am affiliated with the UKRI Centre for Doctoral Training in **AI for Environmental Risks (AI4ER)**.
 
-About Me 
-------
-I am a third-year PhD student at the **Computer Laboratory, University of Cambridge**, supervised by **Srinivasan Keshav, Andrew Blake, and David Coomes**. I am also affiliated with the UKRI Centre for Doctoral Training in **AI for Environmental Risks**. My research lies at the intersection of **computer vision, physics-informed machine learning, and climate change**, developing a data driven system for **scalable environmental monitoring**.
+My research sits at the intersection of **computer vision and Earth observation**, where I develop **synthetic data** and **physics-informed machine learning** methods for Earth intelligence. It builds on a simple but powerful idea: the physical models that describe how satellite imagery is formed — radiative transfer — are essentially **graphics renderers**. This connection between physics-based simulation and computer vision opens a new frontier for AI in science.
 
-Prior to Cambridge, I completed my **Master’s at ETH Zurich** in Switzerland with an **Excellence Scholarship** and my **Bachelor's at Nanjing University** in China, both in **Geomatics**—an interdisciplinary field that has laid down the foundation for my work today, combining **computer science with geospatial data**.  
+Before Cambridge, I completed my **MSc at ETH Zurich** with an Excellence Scholarship and my **BSc at Nanjing University**, both in **Geomatics** — an interdisciplinary field combining computer science with geospatial data, which laid the foundation for my work today.
 
-Feel free to explore this website to learn more about my research portfolio and ongoing projects. I also share my recent research findings on LinkedIn. Beyond academics, I enjoy **choral singing** and **Chinese calligraphy** in my leisure time.  
+Beyond research, I enjoy **choral singing** and **Chinese calligraphy**. If you are interested in my work or would like to connect, please feel free to reach out!
 
-If you’re interested in my work or would like to connect, please feel free to reach out!
-
-<!-- News
-------
-
-[02/2025] Our SPREAD (Synthetic Photorealistic Arboreal Dateset) paper has been accepted by Ecological Informatics. 
-
-[01/2025] I have completed the EnterpriseTECH programme at Cambridge Judge Buisness School! -->
-
-PhD Research Focus
-------
-My PhD research focuses on developing data-driven systems for **scalable forest monitoring**, integrating **remote sensing** and **close-range** observations.
-
-On the **remote sensing** end, I leverage **Earth Observation data** by treating the radiative transfer model as a **graphics renderer** and its inversion as **inverse graphics**. Through an **end-to-end machine learning pipeline**, I retrieve **interpretable biophysical variables** from satellite imagery to characterize forests at a large scale.  
-
-On the **close-range sensing** end, I focus on training **tree segmentation algorithms for 3D point clouds** derived from drone-based laser scans. To overcome the challenges of limited annotated data, I generate **synthetic datasets using graphics engines** to train **3D vision algorithms** for **forest carbon quantification**. The key challenge lies in bridging the **domain gap** between real and synthetic forests, ensuring robust algorithmic generalization.
-
-Before completing my PhD, my goal is to develop a **complete pipeline for an innovative forest monitoring system** by connecting both ends—from **remote to close-range sensing**, from **real to simulation**. By inverting the radiative transfer process, we can extract **biophysical forest parameters at scale**. These variables, serving as **meta-data to describe forest structure**, will enable the creation of **digital forests**, facilitating the generation of synthetic data to train close-range sensing algorithms for **precise forest monitoring anywhere on Earth**.
-
-[Back to top](#top)
-
-
-{% comment %}
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
+Research
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Three threads of my PhD are converging into a single pipeline — from virtual forest scenes, to synthetic satellite imagery, to interpretable evaluation of AI models:
 
-Getting started
+- **Synthetic data for 3D forest vision.** [CAMP3D](https://github.com/yihshe/CAMP3D) uses game-engine forest scenes and virtual drone surveys to generate labelled laser scanning data at a scale and diversity exceeding any real-world forest dataset, for training 3D segmentation algorithms for forest carbon quantification.
+
+- **Physics-informed representation learning.** [PILA](https://github.com/yihshe/PILA) integrates radiative transfer models into neural networks to retrieve interpretable biophysical variables from satellite imagery, enabling scalable and trustworthy environmental monitoring.
+
+- **Probing foundation models with simulation.** Radiative transfer is a physically-grounded renderer: by extending CAMP3D to render multi-spectral satellite imagery with full ground truth, and building on PILA's framework, I am designing probes that test what geo-foundation models actually learn.
+
+My ambition is to build an **open-source toolkit** that makes synthetic data for Earth observation as accessible and transformative as it has been for self-driving.
+
+Selected Publications
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<div class="pub-entry">
+<strong>PILA: Physics-Informed Low Rank Augmentation for Interpretable Earth Observation</strong><br/>
+<strong>Yihang She</strong>, Andrew Blake, Clement Atzberger, Srinivasan Keshav<br/>
+<em>Preprint, under review at the Journal of Machine Learning Research</em>
+<div class="pub-links">
+  <a href="https://arxiv.org/abs/2405.18953">Paper</a>
+  <a href="https://github.com/yihshe/PILA">Code</a>
+  <a href="https://youtu.be/HwtWxwaFUNM?si=GUt-xeD8BW9Lu-cs">Talk</a>
+  <a href="https://docs.google.com/presentation/d/156U03t9eAsM32w54A7lkGPSCAFkD46vprxGCZTlUbNI/edit?usp=share_link">Slides</a>
+  <a href="https://drive.google.com/file/d/1qLDwzvRzd5dj1nTrLjSsUXp0o8ne5qWk/view?usp=share_link">Poster</a>
+</div>
+</div>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<div class="pub-entry">
+<strong>Scaling Up Forest Vision with Synthetic Data</strong><br/>
+<strong>Yihang She</strong>, Andrew Blake, David Coomes, Srinivasan Keshav<br/>
+<em>Preprint, under review at the International Journal of Computer Vision</em>
+<div class="pub-links">
+  <a href="https://arxiv.org/abs/2509.11201">Paper</a>
+  <a href="https://github.com/yihshe/CAMP3D">Code</a>
+  <a href="https://zenodo.org/records/17106960">Dataset</a>
+  <a href="https://youtu.be/fNm5hJf9uDk?si=vU0elUwWsp8rWaEa">Talk</a>
+  <a href="https://docs.google.com/presentation/d/1Cxe7ha63DxhvEpuHTEaFnhSS9t32tjkKuf81m_ucizc/edit?usp=share_link">Slides</a>
+  <a href="https://drive.google.com/file/d/1AdXueGtiHkrwkHDWyv3QnlywxjRgjuDN/view?usp=share_link">Poster</a>
+</div>
+</div>
 
-**Markdown generator**
+<div class="pub-entry">
+<strong>SPREAD: A Large-Scale, High-Fidelity Synthetic Dataset for Multiple Forest Vision Tasks</strong><br/>
+Zhengpeng Feng, <strong>Yihang She</strong>, Srinivasan Keshav<br/>
+<em>Ecological Informatics, 2025</em>
+<div class="pub-links">
+  <a href="https://www.sciencedirect.com/science/article/pii/S1574954125000949">Paper</a>
+  <a href="https://github.com/FrankFeng-23/SPREAD">Code</a>
+  <a href="https://zenodo.org/records/14515915">Dataset</a>
+</div>
+</div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<div class="pub-entry">
+<strong>Fast Hierarchical Learning for Few-Shot Object Detection</strong><br/>
+<strong>Yihang She</strong>, Goutam Bhat, Martin Danelljan, Fisher Yu<br/>
+<em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2022</em>
+<div class="pub-links">
+  <a href="https://arxiv.org/abs/2210.05008">Paper</a>
+  <a href="https://github.com/yihshe/fast-hierarchical-learning-for-fsod">Code</a>
+  <!-- Uncomment and fill in the links below as they become available:
+  <a href="GDRIVE_LINK">Slides</a>
+  -->
+</div>
+</div>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<div class="pub-entry">
+<strong>Digital Taxonomist: Identifying Plant Species in Community Scientists' Photographs</strong><br/>
+Riccardo de Lutio, <strong>Yihang She</strong>, Stefano D'Aronco, Stefania Russo, Philipp Brun, Jan Dirk Wegner, Konrad Schindler<br/>
+<em>ISPRS Journal of Photogrammetry and Remote Sensing, 2021</em>
+<div class="pub-links">
+  <a href="https://arxiv.org/abs/2106.03774">Paper</a>
+</div>
+</div>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<!-- Uncomment if needed
+<div class="pub-entry">
+<strong>Strong Regulation of Daily Variations in Nighttime Surface Urban Heat Islands by Meteorological Variables across Global Cities</strong><br/>
+<strong>Yihang She</strong>*, Zihan Liu*, Wenfeng Zhan, Jiameng Lai, Fan Huang (* equal contribution)<br/>
+<em>Environmental Research Letters, 2021</em>
+<div class="pub-links">
+  <a href="https://doi.org/10.1088/1748-9326/ac4630">Paper</a>
+</div>
+</div>
+-->
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
-{% endcomment %}
+You can also find the full list of my publications on [Google Scholar](https://scholar.google.com/citations?user=MHWgmoIAAAAJ&hl=en).

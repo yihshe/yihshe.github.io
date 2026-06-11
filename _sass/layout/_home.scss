@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Homepage content blocks: education, publications, honors & awards
+   ========================================================================== */
+
+/* A row with main text on the left and a date on the right */
+.entry-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  column-gap: 1em;
+  margin-bottom: 0.9em;
+
+  .entry-main {
+    flex: 1 1 auto;
+    min-width: 60%;
+  }
+
+  .entry-date {
+    color: var(--global-text-color-light);
+    font-size: 0.8em;
+    white-space: nowrap;
+  }
+}
+
+/* Secondary line under an entry (degree details, notes) */
+.entry-sub {
+  color: var(--global-text-color-light);
+  font-size: 0.85em;
+}
+
+/* A publication entry */
+.pub-entry {
+  margin-bottom: 1.5em;
+}
+
+/* Pill-style resource links: Paper / Code / Slides / Talk / Poster */
+.pub-links {
+  margin-top: 0.35em;
+
+  a {
+    display: inline-block;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+    padding: 0 0.9em;
+    margin: 0.15em 0.35em 0.15em 0;
+    border: 1px solid var(--global-link-color);
+    border-radius: 1em;
+    text-decoration: none;
+
+    &:hover {
+      background-color: var(--global-link-color);
+      color: var(--global-bg-color);
+    }
+  }
+}

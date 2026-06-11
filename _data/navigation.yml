@@ -1,29 +1,9 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
+# Links shown in the header of the website, in this order.
+# Internal pages use relative URLs (e.g. /files/...), external links use full URLs.
 
 main:
   - title: "Publications"
-    # url: /publications/
-    url: /files/Yihang_list_publications_updated20250209.pdf
+    url: /#selected-publications
 
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
   - title: "CV"
-    # url: /cv/
     url: /files/Yihang_CV_updated20260323.pdf
-    
-  # - title: "Guide"
-  #   url: /markdown/
