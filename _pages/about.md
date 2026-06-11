@@ -12,7 +12,7 @@ redirect_from:
 
 About Me 
 ------
-I am a second-year PhD student at the **Computer Laboratory, University of Cambridge**, supervised by **Srinivasan Keshav, Andrew Blake, and David Coomes**. I am also affiliated with the UKRI Centre for Doctoral Training in **AI for Environmental Risks**. My research lies at the intersection of **computer vision, physics-informed machine learning, and climate change**, developing a data driven system for **scalable environmental monitoring**.
+I am a third-year PhD student at the **Computer Laboratory, University of Cambridge**, supervised by **Srinivasan Keshav, Andrew Blake, and David Coomes**. I am also affiliated with the UKRI Centre for Doctoral Training in **AI for Environmental Risks**. My research lies at the intersection of **computer vision, physics-informed machine learning, and climate change**, developing a data driven system for **scalable environmental monitoring**.
 
 Prior to Cambridge, I completed my **Master’s at ETH Zurich** in Switzerland with an **Excellence Scholarship** and my **Bachelor's at Nanjing University** in China, both in **Geomatics**—an interdisciplinary field that has laid down the foundation for my work today, combining **computer science with geospatial data**.  
 
