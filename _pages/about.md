@@ -11,7 +11,7 @@ I am a final-year PhD student at the **Department of Computer Science and Techno
 
 My research sits at the intersection of **computer vision and Earth observation**, where I develop **synthetic data** and **physics-informed machine learning** methods for Earth intelligence. It builds on a simple but powerful idea: the physical models that describe how satellite imagery is formed — radiative transfer — are essentially **graphics renderers**. This connection between physics-based simulation and computer vision opens a new frontier for AI in science.
 
-Before Cambridge, I completed my **MSc at ETH Zurich** with an Excellence Scholarship and my **BSc at Nanjing University**, both in **Geomatics** — an interdisciplinary field combining computer science with geospatial data, which laid the foundation for my work today.
+<!-- Before Cambridge, I completed my **MSc at ETH Zurich** with an Excellence Scholarship and my **BSc at Nanjing University**, both in **Geomatics** — an interdisciplinary field combining computer science with geospatial data, which laid the foundation for my work today. -->
 
 Beyond research, I enjoy **choral singing** and **Chinese calligraphy**. If you are interested in my work or would like to connect, please feel free to reach out!
 
@@ -27,6 +27,27 @@ Three threads of my PhD are converging into a single pipeline — from virtual f
 - **Probing foundation models with simulation.** Radiative transfer is a physically-grounded renderer: by extending CAMP3D to render multi-spectral satellite imagery with full ground truth, and building on PILA's framework, I am designing probes that test what geo-foundation models actually learn.
 
 My ambition is to build an **open-source toolkit** that makes synthetic data for Earth observation as accessible and transformative as it has been for self-driving.
+
+Education
+======
+
+<div class="entry-row">
+  <div class="entry-main"><strong>University of Cambridge</strong> — MRes + PhD in Computer Science<br/>
+  <span class="entry-sub">UKRI AI4ER CDT · Supervised by Prof. Srinivasan Keshav FRS and Prof. Andrew Blake FRS</span></div>
+  <span class="entry-date">2022 – 2026 (expected)</span>
+</div>
+
+<div class="entry-row">
+  <div class="entry-main"><strong>ETH Zurich</strong> — MSc in Geomatics<br/>
+  <span class="entry-sub">Advised by Prof. Konrad Schindler · Excellence Scholarship and Opportunity Programme</span></div>
+  <span class="entry-date">2019 – 2022</span>
+</div>
+
+<div class="entry-row">
+  <div class="entry-main"><strong>Nanjing University</strong> — BSc in Geographic Information Science<br/>
+  <span class="entry-sub">Exchange student at UC Berkeley (2018)</span></div>
+  <span class="entry-date">2015 – 2019</span>
+</div>
 
 Selected Publications
 ======
@@ -47,7 +68,7 @@ Selected Publications
 <div class="pub-entry">
 <strong>Scaling Up Forest Vision with Synthetic Data</strong><br/>
 <strong>Yihang She</strong>, Andrew Blake, David Coomes, Srinivasan Keshav<br/>
-<em>Preprint, under review at the International Journal of Computer Vision</em>
+<em>International Journal of Computer Vision, 2026 (accepted)</em>
 <div class="pub-links">
   <a href="https://arxiv.org/abs/2509.11201">Paper</a>
   <a href="https://github.com/yihshe/CAMP3D">Code</a>
