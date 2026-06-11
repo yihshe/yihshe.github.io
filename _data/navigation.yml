@@ -1,9 +1,17 @@
 # Links shown in the header of the website, in this order.
-# Internal pages use relative URLs (e.g. /files/...), external links use full URLs.
+# /#... links jump to a section of the homepage (the part after # is the
+# section heading, lowercased and with spaces replaced by hyphens).
+# Internal files use relative URLs (e.g. /files/...), external links use full URLs.
 
 main:
+  - title: "Research"
+    url: /#research
+
   - title: "Publications"
-    url: /#selected-publications
+    url: /#publications
+
+  - title: "Education"
+    url: /#education
 
   - title: "CV"
     url: /files/Yihang_CV_updated20260323.pdf

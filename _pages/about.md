@@ -28,28 +28,7 @@ Three threads of my PhD are converging into a single pipeline — from virtual f
 
 My ambition is to build an **open-source toolkit** that makes synthetic data for Earth observation as accessible and transformative as it has been for self-driving.
 
-Education
-======
-
-<div class="entry-row">
-  <div class="entry-main"><strong>University of Cambridge</strong> — MRes + PhD in Computer Science<br/>
-  <span class="entry-sub">UKRI AI4ER CDT · Supervised by Prof. Srinivasan Keshav FRS and Prof. Andrew Blake FRS</span></div>
-  <span class="entry-date">2022 – 2026 (expected)</span>
-</div>
-
-<div class="entry-row">
-  <div class="entry-main"><strong>ETH Zurich</strong> — MSc in Geomatics<br/>
-  <span class="entry-sub">Advised by Prof. Konrad Schindler · Excellence Scholarship and Opportunity Programme</span></div>
-  <span class="entry-date">2019 – 2022</span>
-</div>
-
-<div class="entry-row">
-  <div class="entry-main"><strong>Nanjing University</strong> — BSc in Geographic Information Science<br/>
-  <span class="entry-sub">Exchange student at UC Berkeley (2018)</span></div>
-  <span class="entry-date">2015 – 2019</span>
-</div>
-
-Selected Publications
+Publications
 ======
 
 <div class="pub-entry">
@@ -123,4 +102,31 @@ Riccardo de Lutio, <strong>Yihang She</strong>, Stefano D'Aronco, Stefania Russo
 </div>
 -->
 
-You can also find the full list of my publications on [Google Scholar](https://scholar.google.com/citations?user=MHWgmoIAAAAJ&hl=en).
+You can find the full list of my publications on [Google Scholar](https://scholar.google.com/citations?user=MHWgmoIAAAAJ&hl=en).
+
+Education
+======
+
+<div class="entry-row">
+  <div class="entry-main">
+  <strong>University of Cambridge</strong><br/>
+  PhD in Computer Science<br/>
+  </div>
+  <span class="entry-date">2022 – 2026 (expected)</span>
+</div>
+
+<div class="entry-row">
+  <div class="entry-main">
+  <strong>ETH Zurich</strong><br/>
+  MSc in Geomatics · Recipient of the Excellence Scholarship<br/>
+  </div>
+  <span class="entry-date">2019 – 2022</span>
+</div>
+
+<div class="entry-row">
+  <div class="entry-main">
+  <strong>Nanjing University</strong><br/>
+  BSc in Geographic Information Science<br/>
+  </div>
+  <span class="entry-date">2015 – 2019</span>
+</div>

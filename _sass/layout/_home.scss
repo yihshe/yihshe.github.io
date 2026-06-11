@@ -2,31 +2,22 @@
    Homepage content blocks: education, publications, honors & awards
    ========================================================================== */
 
-/* A row with main text on the left and a date on the right */
+/* A row with an optional logo, main text on the left, and a date on the right */
 .entry-row {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  flex-wrap: wrap;
+  align-items: flex-start;
   column-gap: 1em;
-  margin-bottom: 0.9em;
+  margin-bottom: 1.2em;
 
   .entry-main {
     flex: 1 1 auto;
-    min-width: 60%;
   }
 
   .entry-date {
-    color: var(--global-text-color-light);
-    font-size: 0.85em;
+    flex-shrink: 0;
     white-space: nowrap;
   }
-}
-
-/* Secondary line under an entry (degree details, notes) */
-.entry-sub {
-  color: var(--global-text-color-light);
-  font-size: 0.9em;
 }
 
 /* A publication entry */
