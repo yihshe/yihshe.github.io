@@ -33,7 +33,7 @@ Publications
 
 <div class="pub-entry">
 <strong>PILA: Physics-Informed Low Rank Augmentation for Interpretable Earth Observation</strong><br/>
-<strong>Yihang She</strong>, Andrew Blake, Clement Atzberger, Srinivasan Keshav<br/>
+<strong>Yihang She</strong>, Andrew Blake, Clement Atzberger, Adriano Gualandi, Srinivasan Keshav<br/>
 <em>Preprint, under minor revision at the Journal of Machine Learning Research</em>
 <div class="pub-links">
   <a href="https://arxiv.org/abs/2405.18953">Paper</a>
