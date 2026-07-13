@@ -47,9 +47,9 @@ Publications
 <div class="pub-entry">
 <strong>Scaling Up Forest Vision with Synthetic Data</strong><br/>
 <strong>Yihang She</strong>, Andrew Blake, David Coomes, Srinivasan Keshav<br/>
-<em>International Journal of Computer Vision, 2026 (accepted)</em>
+<em>International Journal of Computer Vision, 2026</em>
 <div class="pub-links">
-  <a href="https://arxiv.org/abs/2509.11201">Paper</a>
+  <a href="https://link.springer.com/article/10.1007/s11263-026-02923-y">Paper</a>
   <a href="https://github.com/yihshe/CAMP3D">Code</a>
   <a href="https://zenodo.org/records/17106960">Dataset</a>
   <a href="https://youtu.be/fNm5hJf9uDk?si=vU0elUwWsp8rWaEa">Talk</a>
