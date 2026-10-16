@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a final-year PhD student at the **Department of Computer Science and Technology, University of Cambridge**, supervised by **Prof. Srinivasan Keshav FRS** and **Prof. Andrew Blake FRS**. I am affiliated with the UKRI Centre for Doctoral Training in **AI for Environmental Risks (AI4ER)**.
+I am a final-year PhD candidate at the **Department of Computer Science and Technology, University of Cambridge**, supervised by **Prof. Srinivasan Keshav FRS** and **Prof. Andrew Blake FRS**. I am affiliated with the UKRI Centre for Doctoral Training in **AI for Environmental Risks (AI4ER)**.
 
 My research sits at the intersection of **computer vision and Earth observation**, where I develop **synthetic data** and **physics-informed machine learning** methods for Earth intelligence. It builds on a simple but powerful idea: the physical models that describe how satellite imagery is formed — radiative transfer — are essentially **graphics renderers**. This connection between physics-based simulation and computer vision opens a new frontier for AI in science.
 
@@ -24,12 +24,25 @@ Three threads of my PhD are converging into a single pipeline — from virtual f
 
 - **Physics-informed representation learning.** [PILA](https://github.com/yihshe/PILA) integrates radiative transfer models into neural networks to retrieve interpretable biophysical variables from satellite imagery, enabling scalable and trustworthy environmental monitoring.
 
-- **Probing foundation models with simulation.** Radiative transfer is a physically-grounded renderer: by extending CAMP3D to render multi-spectral satellite imagery with full ground truth, and building on PILA's framework, I am designing probes that test what geo-foundation models actually learn.
+- **Probing foundation models with simulation.** [PiCo](https://github.com/yihshe/PiCo) Radiative transfer is a physically-grounded renderer: by extending CAMP3D to render multi-spectral satellite imagery with full ground truth, and building on PILA's framework, I am designing probes that test what geo-foundation models actually learn.
 
-My ambition is to build an **open-source toolkit** that makes synthetic data for Earth observation as accessible and transformative as it has been for self-driving.
+My ambition is to build an **open-source toolkit** that makes synthetic data for Earth observation as accessible and transformative as it has been for autonomous driving.
 
 Publications
 ======
+
+<div class="pub-entry">
+<strong>PiCo: Physics-Informed Concept Probing for Geo-Foundation Models</strong><br/>
+<strong>Yihang She</strong>, Andrew Blake, Jianbo Qi, Srinivasan Keshav<br/>
+<em>Preprint</em>
+<div class="pub-links">
+  <a href="https://arxiv.org/abs/2610.20973">Paper</a>
+  <a href="https://github.com/yihshe/PiCo">Code</a>
+  <!-- <a href="https://youtu.be/HwtWxwaFUNM?si=GUt-xeD8BW9Lu-cs">Talk</a> -->
+  <!-- <a href="https://docs.google.com/presentation/d/156U03t9eAsM32w54A7lkGPSCAFkD46vprxGCZTlUbNI/edit?usp=share_link">Slides</a> -->
+  <!-- <a href="https://drive.google.com/file/d/1qLDwzvRzd5dj1nTrLjSsUXp0o8ne5qWk/view?usp=share_link">Poster</a> -->
+</div>
+</div>
 
 <div class="pub-entry">
 <strong>PILA: Physics-Informed Low Rank Augmentation for Interpretable Earth Observation</strong><br/>
