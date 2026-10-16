@@ -24,7 +24,7 @@ Three threads of my PhD are converging into a single pipeline — from virtual f
 
 - **Physics-informed representation learning.** [PILA](https://github.com/yihshe/PILA) integrates radiative transfer models into neural networks to retrieve interpretable biophysical variables from satellite imagery, enabling scalable and trustworthy environmental monitoring.
 
-- **Probing foundation models with simulation.** [PiCo](https://github.com/yihshe/PiCo) sees radiative transfer as a physically-grounded renderer: by extending CAMP3D to render multi-spectral satellite imagery with full ground truth, and building on PILA's framework, I am designing probes that test what geo-foundation models actually learn.
+- **Probing foundation models with simulation.** [PiCo](https://github.com/yihshe/PiCo) treats 3D radiative transfer as a physically-grounded renderer: by extending CAMP3D to render multi-spectral satellite imagery with full ground truth, and building on PILA's inversion framework, I am designing probes that test what geo-foundation models actually learn.
 
 My ambition is to build an **open-source toolkit** that makes synthetic data for Earth observation as accessible and transformative as it has been for autonomous driving.
 
