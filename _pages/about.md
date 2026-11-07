@@ -34,7 +34,7 @@ Publications
 <div class="pub-entry">
 <strong>PiCo: Physics-Informed Concept Probing for Geo-Foundation Models</strong><br/>
 <strong>Yihang She</strong>, Andrew Blake, Jianbo Qi, Srinivasan Keshav<br/>
-<em>Preprint</em>
+<em>Preprint, under review at IEEE Transactions on Pattern Analysis and Machine Intelligence</em>
 <div class="pub-links">
   <a href="https://arxiv.org/abs/2610.20973">Paper</a>
   <a href="https://github.com/yihshe/PiCo">Code</a>
